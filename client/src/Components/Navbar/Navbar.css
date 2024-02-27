@@ -1,0 +1,83 @@
+.navbar {
+  /* border: 2px solid red; */
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: sans-serif;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.719);
+  /* color: #727272; */
+}
+.nav-logo span {
+  margin: 5px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  font-weight: 500;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #727272;
+
+  cursor: pointer;
+}
+.btn {
+  width: 10vw;
+  height: 5vh;
+  background: #6674cc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease;
+  /* border: 2px solid red; */
+}
+.btn:hover {
+  background: #535faf;
+  color: #ffffff;
+}
+.nav-logo-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.nav-links hr {
+  border-bottom: 1px solid #f74141;
+}
+.counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: red;
+  font-size: 15px;
+  height: 20px;
+  width: 17px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: -5px;
+}

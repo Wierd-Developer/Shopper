@@ -1,0 +1,86 @@
+.hero-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-top: 6vh;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.747);
+  letter-spacing: 1px;
+}
+
+.hero-headline h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.747);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.hero-headline div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 10px;
+}
+.trend-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+  background: #6674cc;
+  color: #ffffff;
+  font-weight: 600;
+  height: 5vh;
+  width: 12vw;
+  gap: 5px;
+  transition: 0.2s;
+}
+.trend-button:hover {
+  background: #535faf;
+}
+.exclusive-offer {
+  display: flex;
+  margin: 40px auto;
+  /* border: 2px solid red; */
+  color: black;
+  font-weight: 600;
+  height: 60vh;
+  max-width: 70%;
+  gap: 15px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+.offer-body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* border: 2px solid red; */
+  height: 50%;
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+.offer-body h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.offer-body button {
+  width: 7vw;
+  margin: auto;
+  font-weight: 600;
+  background: rgba(255, 0, 0, 0.67);
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+.offer-body button:hover {
+  background: rgba(255, 0, 0, 0.87);
+}
+/* .new-collection-category h1 {
+  border: 2px solid red;
+} */
